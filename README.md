@@ -46,12 +46,16 @@ realdata_resnet.py:
 To try MaxGP with buffered, add the following flag: 
     
     -fBufferBatch=0.25
+    
     or
+    
     -fBufferBatch=-0.25
  
     The buffer size equals to fBufferBatch * iBatchSize; 
+    
     The sign of fBufferBatch indicates the way we use the buffer: 
-        postive -> extend the batch: batch size for maxgp becomes iBatchSize * (1+fBufferBatch) 
+    
+        postive  -> extend the batch: batch size for maxgp becomes iBatchSize * (1+fBufferBatch) 
         negative -> insert into the batch: keep the batchsize of gp unchanged.  
         
 Corresponding results will be in the ../result folder. 
