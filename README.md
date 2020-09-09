@@ -2,7 +2,7 @@ The code for reproducing the results on Lipschitz regularization implementations
 
 The tested methods include: gradient penalty (GP), Lipschitz penalty (LP), spectral normalization (SN), 
 
-and our proposed max gradient norm penalty (MaxGP) and max gradient norm regularization with augmented Lagrangian (MaxAL).
+And our proposed max gradient norm penalty (MaxGP) and max gradient norm regularization with augmented Lagrangian (MaxAL).
 
 We use tensorflow 1.5 with python 3.5.
 
