@@ -56,6 +56,6 @@ To try MaxGP with buffered, add the following flag:
     The sign of fBufferBatch indicates the way we use the buffer: 
     
         postive  -> extend the batch. batch size for maxgp becomes iBatchSize * (1 + fBufferBatch).
-        negative -> insert into the batch. keep the batchsize unchanged, but only parts of the Interpolated samples are used, with some replaced by the buffered samples.
+        negative -> insert into the batch. keep the batchsize unchanged, but only parts of the interpolated samples are used, with some replaced by the buffered samples.
         
 Corresponding results will be in the ../result folder. 
